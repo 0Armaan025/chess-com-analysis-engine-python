@@ -29,7 +29,7 @@ def get_position_analysis(fen, num_moves=10):
         elif abs(eval_diff) > 50:
             analysis[move['Move']] = 'mistake'
         elif abs(eval_diff) < abs(150):
-            analysis[move['Move']] = 'mistake'
+            analysis[move['Move']] = 'mistake'  
         else:
             analysis[move['Move']] = 'BLUNDER'
     
