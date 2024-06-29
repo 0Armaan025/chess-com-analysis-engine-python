@@ -1,5 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+from flask import Flask, jsonify, request
+from flask_cors import CORS
 import chess
 import chess.pgn
 from io import StringIO
